@@ -37,6 +37,8 @@ Mapping grasshoper:
                                  ------------> |   Grasshopper   |
                                                |                 |
                                                -------------------
+
+Go to \CoolRoom\i-cube-lrwan_V1.1.5\STM32CubeExpansion_LRWAN_V1.1.5\Projects\Multi\Applications\LoRa\End_Node\MDK-ARM\B-L072Z-LRWAN1\lora.uvprojx
  Add your Device EUI and lorawan connection key (api key & app key) in commissioning.h file.
  Compile your project.
  Plugin STM32L0 board and toggle the RESET button while holding down the BOOT button then from STM32CubeProgrammer load the hexfile.
