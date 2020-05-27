@@ -5,6 +5,12 @@ This project is the embedded part who allows you to monitor in real time a meeti
 
 Hardware:
 Based on grasshopper lorawan development board powered by STM32L082 ==> https://www.tindie.com/products/tleracorp/grasshopper-loralorawan-development-board/
+**********************************************************************************************************************************
+To be compatible with B-L072Z-LRWAN1 (Discovery-Board) you have to change line 115 & 116 to the right mapping of TCXO.
+
+#define RADIO_TCXO_VCC_PORT                       GPIOA
+#define RADIO_TCXO_VCC_PIN                        GPIO_PIN_12
+**********************************************************************************************************************************
 
 PIR sensor adafruit ==> https://www.adafruit.com/product/189
 
